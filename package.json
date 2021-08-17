@@ -1,0 +1,21 @@
+{
+  "name": "switchCase",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "classic": "ts-node --files ./src/classic.ts --out-put dist",
+    "poly": "ts-node --files ./src/poly.ts --out-put dist"
+  },
+  "devDependencies": {
+    "ts-node": "^10.2.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@types/node": "^16.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/magnusducatuslt/ref_problem_1.git"
+  }
+}
